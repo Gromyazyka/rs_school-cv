@@ -1,8 +1,8 @@
 # [rsschool-cv](https://doka.guide)
+
 ## Pavel Smerchanskiy
 
 Junior Frontend Developer
-
 
 ## Contacts
 ---
@@ -14,7 +14,7 @@ Junior Frontend Developer
 
 ## About me
 
-TEXT
+I am constantly learning and developing. I am sure that acquiring new skills as a Frontend developer will help in my work.
 
 ## Skills
 
@@ -25,14 +25,16 @@ TEXT
 ## Code example
 
 Caesar's cipher (py)
-```s = str(input())                    #Считываем строку
-for char in s:                      #Run a for loop on each element of a string
-    if char.isalpha() == False:     #If the string element is not a character, then do not change it
+```
+s = str(input())
+for char in s:
+    if char.isalpha() == False:
         char = chr(ord(char))
-    else:                           #Otherwise, shift 1 to the right
+    else:                           
         char = chr(ord(char) + 1)
     print(char, sep = '', end = '')
 ```
+
 ## Education
 
 * Samara State University, Faculty of Physics, Department of General and Theoretical Physics
